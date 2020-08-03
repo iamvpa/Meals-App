@@ -37,12 +37,14 @@ class MealDetailScreen extends StatelessWidget {
             ),
             margin: EdgeInsets.all(10),
             padding: EdgeInsets.all(10),
-            height: 200,
+            height: 150,
             width: 300,
             child: ListView.builder(
               itemBuilder: (ctx, index) => Card(
                 color: Theme.of(context).accentColor,
-                child: Text(selectedMeal.ingredients[index]),
+                child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
+                    child: Text(selectedMeal.ingredients[index])),
               ),
               itemCount: selectedMeal.ingredients.length,
             ),
