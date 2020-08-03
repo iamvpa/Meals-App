@@ -10,7 +10,7 @@ class MealDetailScreen extends StatelessWidget {
     final selectedMeal = DUMMY_MEALS.firstWhere((meal) => meal.id == mealId);
     return Scaffold(
       appBar: AppBar(
-        title: Text('$mealId'),
+        title: Text('${selectedMeal.title}'),
       ),
       body: Column(
         children: <Widget>[
@@ -22,6 +22,31 @@ class MealDetailScreen extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
+          Container(
+            margin: EdgeInsets.symmetric(vertical: 10),
+            child: Text(
+              'Ingredients',
+              style: Theme.of(context).textTheme.title,
+            ),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              border: Border.all(color: Colors.grey),
+              borderRadius: BorderRadius.circular(10),
+            ),
+            margin: EdgeInsets.all(10),
+            padding: EdgeInsets.all(10),
+            height: 200,
+            width: 300,
+            child: ListView.builder(
+              itemBuilder: (ctx, index) => Card(
+                color: Theme.of(context).accentColor,
+                child: Text(selectedMeal.ingredients[index]),
+              ),
+              itemCount: selectedMeal.ingredients.length,
+            ),
+          )
         ],
       ),
     );
