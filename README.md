@@ -9,6 +9,15 @@ Meals-App lets you browse meals by category, mark them as favorites and set filt
 
 This project contains the basic features that are required to build an amazing Flutter application.
 
+![Screenshot_1597685555](https://user-images.githubusercontent.com/48381326/90427119-c07d7e00-e0df-11ea-8103-432246469a0d.png)
+![Screenshot_1597685559](https://user-images.githubusercontent.com/48381326/90427126-c4110500-e0df-11ea-9a68-fe69da40ef66.png)
+![Screenshot_1597685563](https://user-images.githubusercontent.com/48381326/90427127-c4a99b80-e0df-11ea-92bb-b2ebffbca09f.png)
+![Screenshot_1597685599](https://user-images.githubusercontent.com/48381326/90427129-c5dac880-e0df-11ea-8496-eae8daab78e6.png)
+![Screenshot_1597685604](https://user-images.githubusercontent.com/48381326/90427167-d3904e00-e0df-11ea-8c59-9b4703727360.png)
+![Screenshot_1597685628](https://user-images.githubusercontent.com/48381326/90427223-e0ad3d00-e0df-11ea-9edd-80c1bf639f13.png)
+![Screenshot_1597685638](https://user-images.githubusercontent.com/48381326/90427279-f02c8600-e0df-11ea-9121-23dc15219717.png)
+
+
 
 ## Getting Started
 **Note:** Make sure your Flutter environment is setup.
